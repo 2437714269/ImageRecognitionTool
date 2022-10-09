@@ -1,0 +1,16 @@
+#端口号
+server:
+  port: 8090
+#picture默认配置,height:默认图片宽，width:默认图片高，fileSize:默认图片小于该值，proportion:默认图片缩放比例
+picture:
+  height: 1280
+  width: 1024
+  fileSize: 100
+  accuracy: 0.9
+
+# 文件上传配置
+spring:
+  servlet:
+    multipart:
+      max-request-size: 3072MB
+      max-file-size: 3072MB
